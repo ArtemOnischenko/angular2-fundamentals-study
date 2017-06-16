@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53e6980c-572e-4f57-97ca-72cfad24831c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.MD" afterPath="$PROJECT_DIR$/readme.MD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/common/toaster.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/events/shared/event.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.ts" afterPath="$PROJECT_DIR$/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/events/event-list.componet.ts" afterPath="$PROJECT_DIR$/app/events/event-list.componet.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,21 +27,55 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="event-list.componet.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event-list.componet.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/events/event-list.componet.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="326" column="1" lean-forward="true" selection-start-line="326" selection-start-column="1" selection-end-line="326" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding>
-                <element signature="e#457#14444#0" expanded="false" />
-                <element signature="e#467#3979#0" expanded="false" />
-                <element signature="e#3989#6714#0" expanded="false" />
-                <element signature="e#6724#10598#0" expanded="false" />
-                <element signature="e#10608#12845#0" expanded="false" />
-                <element signature="e#12855#14438#0" expanded="false" />
-                <marker date="1497526857250" expanded="true" signature="111:403" ph="..." />
-                <marker date="1497526857250" expanded="true" signature="205:388" ph="..." />
-                <marker date="1497526857250" expanded="true" signature="273:369" ph="..." />
+                <element signature="e#0#48#0" expanded="true" />
+                <marker date="1497607690410" expanded="true" signature="229:557" ph="..." />
+                <marker date="1497607690410" expanded="true" signature="323:542" ph="..." />
+                <marker date="1497607690410" expanded="true" signature="391:523" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toaster.service.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/common/toaster.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/events/shared/event.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#151#13114#0" expanded="false" />
+                <element signature="e#157#3433#0" expanded="false" />
+                <element signature="e#3439#5964#0" expanded="false" />
+                <element signature="e#5970#9572#0" expanded="false" />
+                <element signature="e#9578#11651#0" expanded="false" />
+                <element signature="e#11657#13112#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -45,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/app/events/event-thumbnail.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="67" lean-forward="true" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+              <caret line="16" column="67" lean-forward="false" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
               <folding>
                 <marker date="1497597535608" expanded="true" signature="155:594" ph="..." />
                 <marker date="1497597535608" expanded="true" signature="155:962" ph="..." />
@@ -63,8 +103,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -76,17 +116,19 @@
       <list>
         <option value="$PROJECT_DIR$/npm-debug.log" />
         <option value="$PROJECT_DIR$/app/main.ts" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/events/events-list.component.js" />
         <option value="$PROJECT_DIR$/app/events/event-thumbnail.component.js" />
         <option value="$PROJECT_DIR$/app/events/event-list.component.html" />
         <option value="$PROJECT_DIR$/app/nav/navbar.component.ts" />
         <option value="$PROJECT_DIR$/app/nav/navbar.component.html" />
-        <option value="$PROJECT_DIR$/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/events-app.component.ts" />
-        <option value="$PROJECT_DIR$/app/events/event-list.componet.ts" />
         <option value="$PROJECT_DIR$/app/events/event-thumbnail.component.ts" />
         <option value="$PROJECT_DIR$/readme.MD" />
+        <option value="$PROJECT_DIR$/app/events/shared/event.service.ts" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/app/events/event-list.componet.ts" />
+        <option value="$PROJECT_DIR$/app/common/toaster.service.ts" />
       </list>
     </option>
   </component>
@@ -174,7 +216,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="events" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,12 +357,12 @@
       <updated>1496993256535</updated>
       <workItem from="1496993258423" duration="2012000" />
       <workItem from="1496995333987" duration="9320000" />
-      <workItem from="1497502974796" duration="13071000" />
+      <workItem from="1497502974796" duration="18413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24403000" />
+    <option name="totallyTimeSpent" value="29745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -330,12 +372,12 @@
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969843" sideWeight="0.5258467" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37248322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969843" sideWeight="0.27542374" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2080537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969843" sideWeight="0.4741533" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969843" sideWeight="0.7245763" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -367,6 +409,10 @@
         <option value="$PROJECT_DIR$/app/events/event-thumbnail.component.js" />
         <option value="$PROJECT_DIR$/app/nav/navbar.component.js.map" />
         <option value="$PROJECT_DIR$/app/nav/navbar.component.js" />
+        <option value="$PROJECT_DIR$/app/events/shared/event.service.js.map" />
+        <option value="$PROJECT_DIR$/app/events/shared/event.service.js" />
+        <option value="$PROJECT_DIR$/app/common/toaster.service.js" />
+        <option value="$PROJECT_DIR$/app/common/toaster.service.js.map" />
       </list>
     </option>
   </component>
@@ -411,15 +457,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#457#14444#0" expanded="false" />
-            <element signature="e#467#3979#0" expanded="false" />
-            <element signature="e#3989#6714#0" expanded="false" />
-            <element signature="e#6724#10598#0" expanded="false" />
-            <element signature="e#10608#12845#0" expanded="false" />
-            <element signature="e#12855#14438#0" expanded="false" />
-            <marker date="1497526857250" expanded="true" signature="111:403" ph="..." />
-            <marker date="1497526857250" expanded="true" signature="205:388" ph="..." />
-            <marker date="1497526857250" expanded="true" signature="273:369" ph="..." />
+            <element signature="e#0#48#0" expanded="true" />
+            <marker date="1497607690410" expanded="true" signature="229:557" ph="..." />
+            <marker date="1497607690410" expanded="true" signature="323:542" ph="..." />
+            <marker date="1497607690410" expanded="true" signature="391:523" ph="..." />
           </folding>
         </state>
       </provider>
@@ -498,14 +539,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/events/events-list.component.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="69" lean-forward="true" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -548,16 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -574,20 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/event-thumbnail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="67" lean-forward="true" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
-          <folding>
-            <marker date="1497597535608" expanded="true" signature="155:594" ph="..." />
-            <marker date="1497597535608" expanded="true" signature="155:962" ph="..." />
-            <marker date="1497597535608" expanded="true" signature="313:569" ph="..." />
-            <marker date="1497597535608" expanded="true" signature="658:866" ph="..." />
-            <marker date="1497597535608" expanded="true" signature="750:756" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -599,21 +608,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/toaster/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3784">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/events/event-list.componet.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="326" column="1" lean-forward="true" selection-start-line="326" selection-start-column="1" selection-end-line="326" selection-end-column="1" />
+        <state relative-caret-position="85">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
-            <element signature="e#457#14444#0" expanded="false" />
-            <element signature="e#467#3979#0" expanded="false" />
-            <element signature="e#3989#6714#0" expanded="false" />
-            <element signature="e#6724#10598#0" expanded="false" />
-            <element signature="e#10608#12845#0" expanded="false" />
-            <element signature="e#12855#14438#0" expanded="false" />
-            <marker date="1497526857250" expanded="true" signature="111:403" ph="..." />
-            <marker date="1497526857250" expanded="true" signature="205:388" ph="..." />
-            <marker date="1497526857250" expanded="true" signature="273:369" ph="..." />
+            <element signature="e#0#48#0" expanded="true" />
+            <marker date="1497607690410" expanded="true" signature="229:557" ph="..." />
+            <marker date="1497607690410" expanded="true" signature="323:542" ph="..." />
+            <marker date="1497607690410" expanded="true" signature="391:523" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/shared/event.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#151#13114#0" expanded="false" />
+            <element signature="e#157#3433#0" expanded="false" />
+            <element signature="e#3439#5964#0" expanded="false" />
+            <element signature="e#5970#9572#0" expanded="false" />
+            <element signature="e#9578#11651#0" expanded="false" />
+            <element signature="e#11657#13112#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/event-thumbnail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="67" lean-forward="false" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding>
+            <marker date="1497597535608" expanded="true" signature="155:594" ph="..." />
+            <marker date="1497597535608" expanded="true" signature="155:962" ph="..." />
+            <marker date="1497597535608" expanded="true" signature="313:569" ph="..." />
+            <marker date="1497597535608" expanded="true" signature="658:866" ph="..." />
+            <marker date="1497597535608" expanded="true" signature="750:756" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/toaster.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

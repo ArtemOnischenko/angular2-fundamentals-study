@@ -19,6 +19,7 @@ import {ToastrService} from './common/toaster.service'
 import {appRoutes} from "./routes";
 import { AuthService } from './user/auth.service'
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {CreateSessionComponent} from "./events/event-details/create-session.component";
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
         NavBarComponent,
         EventDetailComponent,
         CreateEventComponent,
-        Error404Component
+        Error404Component,
+        CreateSessionComponent
     ],
     providers: [
         EventListResolver,

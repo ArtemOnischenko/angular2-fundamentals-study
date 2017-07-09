@@ -20,6 +20,7 @@ import {appRoutes} from "./routes";
 import { AuthService } from './user/auth.service'
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {CreateSessionComponent} from "./events/event-details/create-session.component";
+import {SessionListComponent} from "./events/event-details/session-list.component";
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import {CreateSessionComponent} from "./events/event-details/create-session.comp
         EventDetailComponent,
         CreateEventComponent,
         Error404Component,
-        CreateSessionComponent
+        CreateSessionComponent,
+        SessionListComponent
     ],
     providers: [
         EventListResolver,

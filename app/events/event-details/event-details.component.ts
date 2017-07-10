@@ -21,6 +21,7 @@ import {IEvent, ISession} from '../shared/event.model'
 export class EventDetailComponent {
     event:IEvent;
     addMode: boolean;
+    filterBy: string = 'all';
     constructor(private eventService:EventService, private route:ActivatedRoute){
 
     }

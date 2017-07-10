@@ -15,7 +15,7 @@ import {
 import { EventsAppComponent } from './events-app.component'
 import {Error404Component} from  './errors/404.component'
 import {NavBarComponent} from './nav/navbar.component'
-import {ToastrService} from './common/toaster.service'
+import {TOASTER_TOKEN, Toaster} from './common/toaster.service'
 import {appRoutes} from "./routes";
 import { AuthService } from './user/auth.service'
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
@@ -24,6 +24,7 @@ import {SessionListComponent} from "./events/event-details/session-list.componen
 import {CollapsibleWell} from "./common/collapsible-well.component";
 import {DurationPipe} from "./events/shared/duration.pipe";
 
+declare let toastr: Toaster;
 
 @NgModule({
     imports:[
@@ -48,7 +49,7 @@ import {DurationPipe} from "./events/shared/duration.pipe";
     providers: [
         EventListResolver,
         EventService,
-        ToastrService,
+        {provide: TOASTER_TOKEN, useValue: toastr},
         AuthService,
         EventRouteActivator,
         {
